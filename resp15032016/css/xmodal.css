@@ -1,0 +1,103 @@
+/*------------------------
+--MODAL BOXES, FAQ BOXES--
+------------------------*/
+
+#contenedor_faq {   
+position: absolute; 
+width: 100%;
+height: 100%;   
+background: rgba(177,164,154,0.8);
+top:0px;
+margin: 0;
+left:0;
+display: none;
+z-index: 88;      
+}
+
+#contenedor_video {
+position: absolute; 
+width: 100%;
+height: 100%;   
+background: rgba(177,164,154,0.9);
+top:0px;
+margin: 0;
+left:0;
+display: none;  
+z-index: 99999;      
+}
+
+.video_portabilidad {
+margin-top: 50px;
+}
+
+.cuerpo_faq {
+    width: 480px; 
+    color: #4f4f4f; 
+    height: auto; 
+    background: #fff; 
+    border: none; 
+    margin: 130px auto;
+    padding-bottom: 20px;
+    }
+
+.cuerpo_video {
+    color: #4f4f4f;  
+}    
+.cuerpo_faq h2,
+.cuerpo_video h2 {
+     font-size: 35px; 
+     color: #404042;
+     background: #ffc600;
+     padding: 30px 20px;
+     font-weight: 300;
+     }
+.cuerpo_faq h3,
+.cuerpo_video h3 {
+     font-size: 17px; 
+     color: #4f4f4f; 
+     margin: 0px 20px;
+     line-height: 20px;
+}
+.cuerpo_faq p,
+.cuerpo_video p {
+font-size: 15px;
+margin: 13px 20px;
+line-height: 20px;
+}
+/*------------------------
+---------CERRAR-----------
+------------------------*/
+
+.video_portabilidad .cerrar {
+    display: block;
+    position: relative;
+    float: none;
+    background: url(../img/close_circle-white.png) no-repeat;
+    width: 74px;
+    height: 74px;
+    text-indent: 999;
+    color: transparent;
+    cursor: pointer;
+    margin: 11px 15px 30px;
+}
+
+.video_portabilidad .cerrar:hover {
+    background: url(../img/close_circle-black.png) no-repeat;
+}
+
+.cerrar {
+    display: block;
+    position: relative;
+    float: right;
+    background: url(../img/close_circle-black.png) no-repeat;
+    width: 74px;
+    height: 74px;
+    text-indent: 999;
+    color: transparent;
+    cursor: pointer;
+    margin: 11px 15px 0px;
+}
+
+.cerrar:hover {
+    background: url(../img/close_circle-white.png) no-repeat;
+}

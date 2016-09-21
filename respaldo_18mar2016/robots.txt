@@ -1,0 +1,13 @@
+# Robots.txt unefon
+User-agent: *
+Allow: /
+# No indexar archivos terminados con estas extensiones
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.xhtml$
+Disallow: /*?*
+Disallow: /*.txt$
+Disallow: /*.kmz$
+
+Sitemap: http://www.unefon.com.mx/sitemap.xml

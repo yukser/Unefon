@@ -1,0 +1,30 @@
+# Laravel
+/vendor
+
+# Configuration
+.env
+
+# Assets development
+npm-debug.log
+/node_modules
+/resources/assets/bower_components
+
+# Composer
+composer.phar
+
+# OS
+.DS_Store
+Thumbs.db
+.idea/
+.tags
+
+# Packages
+_ide_helpers.php
+.vagrant/
+/nbproject/
+tests/_output/*
+
+# Folder Sass and cache
+sass/
+.sass-cache/
+css/oferta.css.map

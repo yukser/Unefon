@@ -1,0 +1,193 @@
+#map {
+        height: 500px;
+        width: 98%;
+        margin: 0px;
+        display:none;
+        margin-bottom: 30px;
+		margin-top: 10px;
+        border: 1px solid #43B02A;
+      }
+      
+       #map2 {
+        min-height: 500px;
+		height: auto;
+        margin-top: 10px;
+        width: 98%;
+        border: 1px solid #43B02A;
+      }
+
+
+select.input-lg {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    }
+
+.st_locator {padding: 0px 20px;}
+.st_locator h2 {line-height: 36px; font-size: 24px;}
+
+.form-control, .form-cp {
+    border-radius: 2px !important;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    color: #555;
+    padding-left: 10px;
+}
+
+.form-cp {
+    float: left;
+}
+
+.btn_locator {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #43B02A;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    border: none !important;
+    line-height: normal;
+    border-radius: 2px;
+    padding: 10px 25px;
+}      
+.btn_locator:hover {
+    background: #ffc600; 
+    color: #fff;
+}
+.alt_size{
+    font-size: 24px;
+    line-height: 30px;
+}
+.busqueda_cp {
+    border-radius: 2px !important;
+    margin: 0px 10px 0px 0px;
+    width: 55%;
+}      
+#only-m {display: none;}    
+    
+    .busqueda_cp:focus {
+    border-color:#FCC532;
+    outline:0;
+    background: #f8f8f8;
+}  
+.desp_1, .desp_2, .desp_3 {display: none;}
+
+#lbl_tienda_h1 {border-left: 3px solid #767676; padding: 0px 3px 1px 8px; margin-right: 5px; font-size: 17px; }
+
+#lbl_tienda_h2 {font-weight: 500; text-transform: lowercase; font-size: 17px;}
+
+#lbl_tienda_h3 {display: block; font-weight: 500; font-size: 13px; padding-top: 10px;}   
+
+.ocultame{
+	display:none;
+}
+.muestrame{
+	display:block;
+}
+.cajamenu320{
+	margin: 0 0 5% 0; 
+	display:none;
+	height:60px;
+}	
+.img_banner {
+    float: left;
+    width: 100%;
+}
+.cadenas-izq {
+    padding:10px 0px 10px 13px; 
+    background: #f0f0f0;
+    width: 90%;
+    height: auto;
+    float: left;
+    border-radius: 3px;   
+}
+.cadenas-izq img{
+    float: left;
+}
+.cadenas-izq p{
+    float: left;
+    width: 80%;
+    margin-left: 15px;
+    line-height: 20px
+}
+.logos-izq {
+	float: left;
+	width: 100%;
+}
+.logos-izq img{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    padding: 6px 10px;
+    background: #F0F0F0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.logos-izq img:hover{
+    background: #e3e3e3;
+}
+
+
+@media screen and (max-width: 320px) {
+    #map {
+        height: 200px;
+        width: 98%;
+        margin: 0px;
+        display:none;
+    }
+    #map2 {
+        height: 400px;
+        width: 98%;
+        margin: 0px;
+    }
+    #cajamenuoculto{
+        display:block;
+    }
+    #cajabusquedacp{
+        display:none;
+    }
+    
+}   
+/*Menu de busqueda por codigo postal*/
+    .pestanascp{
+        width:auto; 
+        float:left; 
+        height:auto; 
+    }       
+    .recipiente {
+    height:auto; 
+    width:100%;
+    float:left;
+    display:block;
+    margin: 5px 0px 0px;
+    }
+    .btnpestana,
+    .btnpestana2 {
+    color: #323232;
+    text-align: center;
+    border-radius: 2px;
+    background: #FFC600;
+    font-size: 15px;
+    padding: 6px 22px;
+    width: auto;
+    margin-right: 13px;
+    margin-bottom: 15px;
+    cursor:pointer;
+    }
+    .cadena1 {
+    background:#C00;
+    }
+    .btnpestana:hover,
+    .btnpestana:active  {
+    background: #323232;
+    color: #fff;
+    }
+
+    
+
+	

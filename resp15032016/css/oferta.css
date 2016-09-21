@@ -1,0 +1,374 @@
+/*-------------------------------------------------------------------*/
+/* ESTILOS DE LA TABLA DE OFERTAS UNEFON    ||---------------------- */
+/*-------------------------------------------------------------------*/
+
+#tabla-oferta h3{
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	width: 100%;
+	margin: 20px 0px;
+}
+#tabla-oferta h3:after {
+    content: none;
+}
+
+/* Recargas 10-20 ||---------------------- */
+.ten-twenty {
+  background: #FFC600;
+  color: #404042;
+  padding: 0px 0px;
+}
+.ten-twenty p{
+  color: #404042;
+  text-align: center;
+  font-weight: bold;
+}
+.pfs-10-20 {
+  font-family: '../fonts/gloriola/gloriolabold';
+  letter-spacing: 1px;
+   font-size: 38px;
+   vertical-align: middle;
+   padding: 0px;
+   margin: 0px;
+   line-height: 40px;
+   padding: 15px 0px;
+}
+.ten-twenty span{
+  font-size: 20px;
+  font-weight: 600;
+}
+.tab-oferta1 {
+    background: #404042;
+    margin: 0px;
+    padding: 20px 0px;
+    height: 110px;
+}
+.tab-oferta1 p{
+    color: #FFC600;
+    text-align: center;
+}
+.tab-text-izq-1 {
+	font-size: 40px;
+}
+.tab-text-izq-2 {
+	font-size: 15px; 
+	font-weight: 400;
+}
+
+/* Todos los paquetes ||---------------------- */
+.all-deals {
+  background: #404042;
+  padding: 0px 0px;
+}
+.all-deals p{
+  color: #FFC600;
+  text-align: center;
+  font-family: '../fonts/gloriola/gloriolabold';
+}
+.pfs-adeals {
+   font-size: 38px;
+   vertical-align: middle;
+   padding: 0px;
+   margin: 0px;
+   line-height: 40px;
+   padding: 15px 0px;
+   letter-spacing: 1px;
+}
+.all-deals span{
+  font-size: 20px;
+  font-weight: 600;
+}
+.tab-adeals {
+    background: #CAC1BA;
+    margin: 0px;
+    padding: 20px 0px;
+    height: 110px;
+}
+.tab-adeals p{
+    color: #404042;
+}
+.adeals-title {font-size: 30px;}
+.adeals-subtitle {font-size: 25px;}
+
+.dash {border: 3px dashed #F00;}
+
+.pl-3 {
+    border-left: 4px solid #fff;
+}
+.desk-hidden{
+    display: none;
+}
+
+/* Todos los cuadros para escritorio ||---------------------- */
+.tab-llamadas,
+.tab-redes,
+.tab-radio-prip {
+    text-align: center;
+    padding: 15px 0px;
+    margin-top: 4px;
+    border-left: 4px solid #fff;
+}
+.tab-redes,
+.tab-radio-prip,
+.wapp,
+.rprip {
+    height: 70px;
+    margin-top: 4px;
+}
+.tab-llamadas p,
+.tab-radio-prip p {
+    color: #fff;
+}
+.tab-redes p,
+.tab-radio-prip p {
+    font-size: 35px;
+    padding-top: 5px;
+}
+.llamadas-p-1,
+.llamadas-p-2  {
+    font-weight: 600;
+}
+.num-gratis {
+    margin-top: 4px;
+}
+/*Recuadro verde para número gratis*/
+.num-gratis {
+    background: #43B02A;
+    height: 100px;
+    margin-top: 4px;
+}
+.num-gratis p{
+    color: #fff;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: left;
+    float: left;
+}
+.cinco-gigante {
+    font-size: 55px;
+    margin-right: 12px;
+    vertical-align: -moz-middle-with-baseline;
+    padding-left: 13px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    float: left;
+    line-height: 0px;
+}
+/*Recuadro whatsapp ilimitado*/
+.wapp {
+    background: #FFC600;
+}
+.wapp p {
+    font-size: 20px; 
+    font-weight: 600; 
+    color: #404042;
+    padding: 17px 0px;
+    text-align: center;
+}
+/*Recuadro Radio Prip Recargas*/
+.rprip {
+    background: #FF970D;
+    padding: 0px 5px;
+}
+.rprip p, 
+.dias-recarga p,
+.recarga-col-1 p,
+.recarga-col-2 p,
+.recarga-col-3 p,
+.recarga-col-4 p {
+   color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 6px;
+}
+/*Recuadro días duración Recargas*/
+.dias-recarga,
+.recarga-col-1 {
+    background: #B2A49C;
+}
+.recarga-col-3 {
+    background: #D2CBC5;
+}
+.recarga-col-2 {
+    background: #D2CBC5;
+}
+.recarga-col-4 {
+    background: #00A9CE;
+}
+.dias-recarga,
+.recarga-col-1,
+.recarga-col-2,
+.recarga-col-3,
+.recarga-col-4 {
+    height: auto;
+    margin-top: 4px;
+    padding-bottom: 5px;
+}
+.recarga-col-1,
+.recarga-col-2,
+.recarga-col-4 {
+    border-left: 4px solid #fff;
+}
+/*Recuadro llamadas y mensajes*/
+.tab-llamadas {
+  background: #00A9CE;
+  height: 100px;
+}
+.llamadas-p-2 {
+    font-size: 40px;
+}
+/*Recuadro Redes ilimitadas*/
+.tab-redes {
+    background: #404042;
+}
+.tab-redes p{
+    color: #FEC62E;
+    font-weight: 600;
+}
+.tab-redes img{
+    margin-top: -10px;
+    margin-left: 4px;
+}
+/*Recuadro Radio Prip Ilimitado*/
+.tab-radio-prip {
+    background: #FF970D;
+}
+.tab-radio-prip p{
+    font-weight: 600;
+}
+.roaming-tabla{
+ text-align: center;
+ font-size: 28px;
+ margin: 25px 0px 35px;
+ font-weight: 600;
+ line-height: 34px;   
+}
+
+@media (max-width: 1200px) {
+.pfs-10-20 {
+	font-size: 30px;
+}
+.tab-oferta1,
+.tab-adeals {
+    height: 90px;
+    padding: 10px 0px;
+}
+.pfs-adeals,
+.llamadas-p-2 {
+    font-size: 30px;
+}
+.adeals-title {
+	font-size: 28px;
+	margin: 0px 0px 5px 0px;
+}
+.cinco-gigante {
+	font-size: 40px;
+}
+.ng-texto,
+.rprip p  {
+	font-size: 20px;
+}
+.num-gratis p {
+	padding-top: 20px;
+}
+.num-gratis,
+.tab-llamadas {
+    height: 90px;
+}
+.tab-llamadas {
+	padding: 10px 0px 0px;
+}
+.wapp p {
+    font-size: 20px; 
+    padding: 6px 0px;
+}
+.wapp img {height: 29px}
+}
+
+@media (max-width: 991px) {
+.hidden_mobile{
+    display: none;
+}
+	.desk-hidden{
+    display: block;
+    margin-bottom: 30px;
+}
+.pfs-adeals,
+.pfs-10-20 {
+    font-size: 50px;
+}
+.all-deals span,
+.ten-twenty span{
+	font-size: 25px;
+}
+.tab-redes-invert{
+	background: #FFC600;
+}
+.dias-recarga{
+	background: #00A9CE;	
+}
+.tab-llamadas {
+	background: #43B02A;
+}
+.wapp,
+.rprip,
+.num-gratis,
+.tab-llamadas,
+.tab-radio-prip,
+.dias-recarga,
+.tab-redes-invert,
+.verde_nuevo {
+	height: auto !important;
+	border: none;
+	padding: 10px;
+	margin: 0px;
+}
+.tab-redes-invert p{
+	color: #404042;
+}
+.wapp p,
+.rprip p,
+.num-gratis p,
+.tab-llamadas p,
+.tab-radio-prip p,
+.dias-recarga p,
+.tab-redes-invert p{
+	font-size: 20px;
+	font-weight: 400;
+}
+.cinco-gigante {
+    font-size: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+    line-height: 0px;
+}
+.pl-3 {
+    border-left: none;
+}
+.num-gratis {
+    float: left;
+    width: 100%;
+    height: 70px !important;
+  }
+  .num-gratis p,
+  .num-gratis span {height: auto;
+    margin: 0px;
+    padding: 0px;}
+}
+.verde_nuevo {
+  background: #43B02A;
+  text-align: center; 
+}
+.verde_nuevo p {
+  color: #fff;
+  padding-top: 10px;
+}
+
+@media (max-width: 480px) {
+  .all-deals p {
+    font-family: '../fonts/gloriola/gloriolamedium';
+  }
+}
+
+
